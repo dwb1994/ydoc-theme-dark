@@ -2295,11 +2295,11 @@ pre[class*="language-"] {
 
 .m-search {
   color: #171e27;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .m-search .input {
-  border-radius: .16rem;
+  border-radius: .16rem !important;
 }
 
 * {
