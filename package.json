@@ -45,5 +45,30 @@
   "dependencies": {
     "chokidar": "^2.0.4",
     "node-sass": "^4.9.3"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "test",
+        "chore",
+        "refactor",
+        "opti"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100,
+      "subjectPattern": ".+",
+      "subjectPatternErrorMsg": "please input meesage!",
+      "helpMessage": "Commit message error, \n Please see: https://github.com/conventional-changelog-archived-repos/validate-commit-msg"
+    }
+  },
+  "devDependencies": {
+    "ghooks": "^2.0.4",
+    "validate-commit-msg": "^2.14.0"
   }
 }
