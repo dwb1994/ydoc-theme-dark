@@ -1,0 +1,49 @@
+{
+  "_from": "ydoc-theme-demo",
+  "_id": "ydoc-theme-demo@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-eiSkgmvyDIUqU/hdavJEP12ruvQwIaGgP2Vlp9cp9PocolECluuH9zTHssqYKH8J4zuZi5HKa/yhw6Ylp1ooqA==",
+  "_location": "/ydoc-theme-demo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ydoc-theme-demo",
+    "name": "ydoc-theme-demo",
+    "escapedName": "ydoc-theme-demo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ydoc-theme-demo/-/ydoc-theme-demo-0.0.1.tgz",
+  "_shasum": "22de3b224bcadc9c5ccfb5a68d656bc9ee0f1a36",
+  "_spec": "ydoc-theme-demo",
+  "_where": "/Users/qitmac000310/git/ydoc-demo",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/YMFE/ydoc-theme-demo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/YMFE/ydoc-theme-demo#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "ydoc-theme-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YMFE/ydoc-theme-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "node-sass": "^4.9.3"
+  }
+}
