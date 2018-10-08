@@ -38,6 +38,7 @@ body {
 ::-webkit-scrollbar-thumb {
   border: 1.5px solid #1d212b;
   background: #54b1f7;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -662,7 +663,6 @@ body {
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 980px;
   margin: 0 auto;
   padding: 0;
   transition: all 0.2s;
@@ -670,7 +670,7 @@ body {
 
 @media screen and (min-width: 960px) {
   .markdown-body {
-    padding: 0 .3rem;
+    padding: 0 .32rem;
   }
 }
 
@@ -1241,7 +1241,7 @@ body {
 .markdown-body code {
   padding: 0.2em 0.4em;
   margin: 0;
-  font-size: 85%;
+  font-size: 100%;
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
 }
@@ -1273,10 +1273,10 @@ body {
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
-  font-size: 85%;
+  font-size: 100%;
   line-height: 1.45;
-  background-color: #f6f8fa;
-  border-radius: 3px;
+  background-color: #171e27;
+  border-radius: 5.4px;
 }
 
 .markdown-body pre code {
@@ -1961,7 +1961,7 @@ pre[class*="language-"] {
 }
 
 .m-content-container {
-  max-width: 8.6rem;
+  max-width: 10.6rem;
   padding-top: .48rem;
   margin: .48rem auto;
   background-color: #fff;
@@ -2025,7 +2025,7 @@ pre[class*="language-"] {
 }
 
 .m-footer {
-  background-color: #fff;
+  background-color: transparent;
   padding: .24rem;
 }
 
@@ -2060,14 +2060,13 @@ pre[class*="language-"] {
 .m-footer-links .title {
   font-size: 18px;
   line-height: 2;
-  color: rgba(3, 17, 31, 0.38);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .m-footer .href {
   line-height: 1.8;
   padding: .3em 0;
-  color: rgba(3, 17, 31, 0.54);
-  background-color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   transition: all 0.2s;
 }
 
@@ -2076,13 +2075,13 @@ pre[class*="language-"] {
 }
 
 .m-footer-title {
-  color: rgba(3, 17, 31, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 960px) {
   .m-footer {
     font-size: 18px;
-    color: rgba(3, 17, 31, 0.54);
+    color: rgba(255, 255, 255, 0.7);
     padding: .24rem .64rem;
   }
   .m-footer-container {
@@ -2173,7 +2172,7 @@ pre[class*="language-"] {
   line-height: .2rem;
   font-size: 18px;
   color: #3eb1f3;
-  background-color: #fff;
+  background-color: transparent;
   margin-right: .08rem;
   border-radius: 6px;
   text-align: center;
@@ -2199,7 +2198,6 @@ pre[class*="language-"] {
 
 .g-home .m-section.home {
   padding: .56rem .24rem .64rem;
-  border-bottom: 1px solid rgba(3, 17, 31, 0.14);
 }
 
 .g-home .m-section.home .m-section-container {
@@ -2208,7 +2206,7 @@ pre[class*="language-"] {
 
 .g-home .m-section.home .m-section-title {
   text-align: center;
-  color: rgba(3, 17, 31, 0.87);
+  color: white;
   flex: 1;
 }
 
@@ -2221,7 +2219,7 @@ pre[class*="language-"] {
 }
 
 .g-home .m-section.home .m-section-title .desc {
-  color: rgba(3, 17, 31, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .g-home .m-section.home .m-section-btngroup {
@@ -2234,12 +2232,15 @@ pre[class*="language-"] {
 
 .g-home .m-section.home .caption {
   font-size: 18px;
-  color: rgba(3, 17, 31, 0.38);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .g-home .m-section.feature {
-  background-color: #fbfbfb;
-  border-bottom: 1px solid rgba(3, 17, 31, 0.14);
+  background-color: transparent;
+}
+
+.g-home .m-section.feature .m-section-container {
+  border-top: 1px solid #3eb1f3;
 }
 
 .g-home .m-section.feature .item {
@@ -2250,11 +2251,12 @@ pre[class*="language-"] {
 .g-home .m-section.feature .item .title {
   font-size: 36px;
   margin-bottom: .16rem;
+  color: white;
 }
 
 .g-home .m-section.feature .item .desc {
   font-size: 18px;
-  color: rgba(3, 17, 31, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 960px) {

@@ -6,7 +6,6 @@
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 980px;
   margin: 0 auto;
   padding: 0;
   transition: all $transition-time-quick;
@@ -14,7 +13,7 @@
 
 @include media-md() {
   .markdown-body {
-    padding: 0 .3rem;
+    padding: 0 .32rem;
   }
 }
 
@@ -587,7 +586,7 @@
 .markdown-body code {
   padding: 0.2em 0.4em;
   margin: 0;
-  font-size: 85%;
+  font-size: 100%;
   background-color: rgba(27,31,35,0.05);
   border-radius: 3px;
 }
@@ -619,10 +618,10 @@
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
-  font-size: 85%;
+  font-size: 100%;
   line-height: 1.45;
-  background-color: #f6f8fa;
-  border-radius: 3px;
+  background-color: #171e27;
+  border-radius: 5.4px;
 }
 
 .markdown-body pre code {

@@ -59,7 +59,7 @@
       line-height: .2rem;
       font-size: $font-size-h4;
       color: $primary-6;
-      background-color: $white;
+      background-color: transparent;
       margin-right: .08rem;
       border-radius: 6px;
       text-align: center;
@@ -84,13 +84,12 @@
   // -----------------------------
   .m-section.home {
     padding: .56rem .24rem .64rem;
-    border-bottom: 1px solid $deep-line-text-color;
     .m-section-container {
       padding: .24rem .32rem;
     }
     .m-section-title {
       text-align: center;
-      color: $deep-body-text-color;
+      color: $light-body-text-color;
       flex: 1;
       .name {
         margin-bottom: .16rem;
@@ -99,7 +98,7 @@
         }
       }
       .desc {
-        color: $deep-caption-text-color;
+        color: $light-caption-text-color;
       }
     }
     .m-section-btngroup {
@@ -111,24 +110,27 @@
     }
     .caption {
       font-size: $font-size-h4;
-      color: $deep-disable-text-color;
+      color: $light-disable-text-color;
     }
   }
   // feature block
   // -----------------------------
   .m-section.feature {
-    background-color: #fbfbfb;
-    border-bottom: 1px solid $deep-line-text-color;
+    background-color: transparent;
+    .m-section-container {
+      border-top: 1px solid $primary-color;
+    }
     .item  {
       flex: 0 0 46%;
       margin-bottom: .32rem;
       .title {
         font-size: $font-size-h1;
         margin-bottom: .16rem;
+        color: $light-body-text-color;
       }
       .desc {
         font-size: $font-size-h4;
-        color: $deep-caption-text-color;
+        color: $light-caption-text-color;
       }
     }
   }
