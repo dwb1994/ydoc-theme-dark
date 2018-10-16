@@ -1,6 +1,6 @@
 {
   "name": "ydoc-theme-dark",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "theme for ydoc",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dwb1994/ydoc-theme-dark/issues"
   },
-  "homepage": "https://github.com/dwb1994/ydoc-theme-dark#readme"
+  "homepage": "https://github.com/dwb1994/ydoc-theme-dark#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
 }
